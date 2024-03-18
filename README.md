@@ -1,5 +1,5 @@
 instalar vscode,
-instalar dot.net versao 8.0.202,
+instalar .net versao 8.0.202,
 instalar docker desktop,
 
 //no vscode instalar package nos projetos Send e Received
