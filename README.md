@@ -21,3 +21,9 @@ dotnet add reference 'url projeto Received'
 //configurar Minio
     docker run  --name minio --rm -p 9000:9000 -p 9001:9001 quay.io/minio/minio server /data --console-address ":9001"
     minioadmin:minioadmin
+    
+//executar o projeto Received primeiro 
+no terminal dentro da pasta do projeto Received
+dotnet run
+//e em outro terminal dentro da pasta do projeto Send
+dotnet run
