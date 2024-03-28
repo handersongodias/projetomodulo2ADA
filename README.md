@@ -15,8 +15,8 @@ dotnet add package NRedisStack,<br>
 
 >//executar Docker <br>
 >//configurar RabbitMQ <br>
- >>guest:guest <br>
-   >> docker run -d --hostname myRabbit --name rabbitMQ -p 15672:15672 -p 5672:5672 rabbitmq:3.13-management <br>
+ >> guest:guest <br>
+ >> docker run -d --hostname myRabbit --name rabbitMQ -p 15672:15672 -p 5672:5672 rabbitmq:3.13-management <br>
    
 >//configurar Redis <br>
   >>  docker run -it --rm --name redis-stack -p 6379:6379 -p 8001:8001 redis/redis-stack:latest  //Redis version=7.2.4 <br>
